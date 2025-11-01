@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>11th Grade Study Group</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>JOIN OUR<br><span>11TH GRADE STUDY GROUP</span></h1>
+    <img src="https://copilot.microsoft.com/th/id/BCO.0437b436-8840-4156-8606-1c25fd0bb115.png" alt="Graduate" class="graduate-img">
+    <form id="signupForm">
+      <label for="name">NAME</label>
+      <input type="text" id="name" required>
+
+      <label for="email">EMAIL</label>
+      <input type="email" id="email" required>
+
+      <label for="phone">PHONE NUMBER (WHATSAPP)</label>
+      <input type="tel" id="phone" required>
+
+      <label for="school">SCHOOL</label>
+      <select id="schoolDropdown" required>
+        <option value="">Select your school</option>
+      </select>
+
+      <button type="submit">JOIN GROUP</button>
+      <p id="message"></p>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
